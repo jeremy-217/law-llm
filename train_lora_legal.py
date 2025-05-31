@@ -49,7 +49,7 @@ training_args = TrainingArguments(
     save_steps=50,
     learning_rate=2e-4,
     save_total_limit=2
-    # ❌ 不要使用 fp16 或 bf16，macOS MPS 不支援
+    # 不要使用 fp16 或 bf16，macOS MPS 不支援
 )
 
 # 建立 Trainer
